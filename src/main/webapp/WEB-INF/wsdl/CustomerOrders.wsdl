@@ -157,7 +157,7 @@
         <wsdl:port binding="tns:CustomerOrdersServiceSoapBinding"
                    name="CustomerOrdersPort">
             <soap:address
-                    location="http://localhost:8080/wsdlfirstws/services/customerOrdersService" />
+                    location="http://localhost:8080/wsdlfirst-orders/services/customerOrders?wsdl" />
         </wsdl:port>
     </wsdl:service>
 </wsdl:definitions>
