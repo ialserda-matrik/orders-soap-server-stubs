@@ -1,4 +1,4 @@
-package nl.matrik.ws.trainings.impl;
+package nl.matrik.ws.orders.impl;
 
 
 import java.math.BigInteger;

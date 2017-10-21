@@ -5,7 +5,7 @@
        xsi:schemaLocation="http://cxf.apache.org/core http://cxf.apache.org/schemas/core.xsd http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://cxf.apache.org/bindings/soap http://cxf.apache.org/schemas/configuration/soap.xsd http://cxf.apache.org/jaxws http://cxf.apache.org/schemas/jaxws.xsd">
 
     <jaxws:endpoint id="customerOrdersWs" address="/customerOrders"
-                    wsdlLocation="WEB-INF/wsdl/CustomerOrders.wsdl" implementor="nl.matrik.ws.trainings.impl.CustomersOrdersWSImpl"
+                    wsdlLocation="WEB-INF/wsdl/CustomerOrders.wsdl" implementor="nl.matrik.ws.orders.impl.CustomersOrdersWSImpl"
                     serviceName="customerOrders:CustomerOrdersService"
                     xmlns:customerOrders="http://trainings.ws.matrik.nl/" />
     <cxf:bus>
