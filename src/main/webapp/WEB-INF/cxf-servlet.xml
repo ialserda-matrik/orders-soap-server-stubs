@@ -7,7 +7,7 @@
     <jaxws:endpoint id="customerOrdersWs" address="/customerOrders"
                     wsdlLocation="WEB-INF/wsdl/CustomerOrders.wsdl" implementor="nl.matrik.ws.orders.impl.CustomersOrdersWSImpl"
                     serviceName="customerOrders:CustomerOrdersService"
-                    xmlns:customerOrders="http://trainings.ws.matrik.nl/" />
+                    xmlns:customerOrders="http://orders.ws.matrik.nl/" />
     <cxf:bus>
         <cxf:features>
             <cxf:logging />

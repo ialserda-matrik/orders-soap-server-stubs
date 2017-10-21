@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <wsdl:definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema"
-                  xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:tns="http://trainings.ws.matrik.nl/"
+                  xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:tns="http://orders.ws.matrik.nl/"
                   xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:ns1="http://schemas.xmlsoap.org/soap/http"
-                  name="CustomerOrdersService" targetNamespace="http://trainings.ws.matrik.nl/">
+                  name="CustomerOrdersService" targetNamespace="http://orders.ws.matrik.nl/">
     <wsdl:types>
         <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
-                   xmlns:tns="http://trainings.ws.matrik.nl/" elementFormDefault="unqualified"
-                   targetNamespace="http://trainings.ws.matrik.nl/" version="1.0">
+                   xmlns:tns="http://orders.ws.matrik.nl/" elementFormDefault="unqualified"
+                   targetNamespace="http://orders.ws.matrik.nl/" version="1.0">
 
             <xs:complexType name="order">
                 <xs:sequence>

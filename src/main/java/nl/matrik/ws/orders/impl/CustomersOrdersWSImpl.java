@@ -7,15 +7,15 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import nl.matrik.ws.trainings.CreateOrdersRequest;
-import nl.matrik.ws.trainings.CreateOrdersResponse;
-import nl.matrik.ws.trainings.CustomerOrdersPortType;
-import nl.matrik.ws.trainings.DeleteOrdersRequest;
-import nl.matrik.ws.trainings.DeleteOrdersResponse;
-import nl.matrik.ws.trainings.GetOrdersRequest;
-import nl.matrik.ws.trainings.GetOrdersResponse;
-import nl.matrik.ws.trainings.Order;
-import nl.matrik.ws.trainings.Product;
+import nl.matrik.ws.orders.CreateOrdersRequest;
+import nl.matrik.ws.orders.CreateOrdersResponse;
+import nl.matrik.ws.orders.CustomerOrdersPortType;
+import nl.matrik.ws.orders.DeleteOrdersRequest;
+import nl.matrik.ws.orders.DeleteOrdersResponse;
+import nl.matrik.ws.orders.GetOrdersRequest;
+import nl.matrik.ws.orders.GetOrdersResponse;
+import nl.matrik.ws.orders.Order;
+import nl.matrik.ws.orders.Product;
 
 public class CustomersOrdersWSImpl implements CustomerOrdersPortType {
 
