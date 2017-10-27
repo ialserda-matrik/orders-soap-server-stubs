@@ -55,7 +55,7 @@
 
     </plugins>
 
-    <finalName>wsdlfirst-orders-soap-ws1</finalName>
+    <finalName>wsdlfirst-orders-soap-ws</finalName>
   </build>
 
   <dependencies>
